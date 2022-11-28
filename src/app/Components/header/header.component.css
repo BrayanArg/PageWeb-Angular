@@ -1,0 +1,24 @@
+.seccion-header-container{
+    background-color: #1031a7;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.seccion-header-container img{
+    max-width: 200px;
+    margin-right: 15px;
+}
+
+.seccion-header-container .navbar-nav a{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.seccion-header-container .navbar-nav a:hover{
+    color: #a6e1fa;
+}
+
+.seccion-header-container .navbar-nav a.active{
+    color: #a6e1fa;
+}

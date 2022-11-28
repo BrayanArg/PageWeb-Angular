@@ -1,0 +1,47 @@
+.seccion-container.inicio h2{
+    text-align: center;
+}
+
+
+.seccion-container.inicio .col-sm-6{
+    margin-bottom: 15px;
+}
+
+.seccion-container.inicio .razon-social .encabezado{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.seccion-container.inicio .row>div{
+    border-radius: 10px;
+    background: #ebebeb;
+    padding: 15px;
+}
+
+.seccion-container.inicio .row>div.mision{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.seccion-container.inicio .row>div.vision{
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+@media(max-width: 767px){
+    .seccion-container.inicio .row>div.razon-social{
+        margin-bottom: 30px;
+    }   
+}
+
+@media(max-width: 575px){
+    .seccion-container.inicio .row>div.mision{
+    border-radius: 10px;
+    }
+
+.seccion-container.inicio .row>div.vision{
+    border-radius: 10px;
+    }
+}
+
+

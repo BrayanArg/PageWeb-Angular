@@ -1,0 +1,11 @@
+.seccion-footer-container{
+    background-color: #1031a7;
+    padding: 30px;
+}
+
+.seccion-footer-container p{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+

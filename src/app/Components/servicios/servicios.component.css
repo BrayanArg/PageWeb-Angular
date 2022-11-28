@@ -1,0 +1,35 @@
+.seccion-container.servicios img{
+    padding: 15px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.seccion-container.servicios  .card-group>.card:nth-child(1){
+    background-color: #00cbe7;
+}
+
+.seccion-container.servicios  .card-group>.card:nth-child(1):hover{
+    background-color: #00e0ff;
+}
+
+.seccion-container.servicios  .card-group>.card:nth-child(2){
+    background-color: #e37a1a;
+}
+
+.seccion-container.servicios  .card-group>.card:nth-child(2):hover{
+    background-color: #ff9635;
+}
+
+.seccion-container.servicios  .card-group>.card:nth-child(3){
+    background-color: #49c449;
+}
+
+.seccion-container.servicios  .card-group>.card:nth-child(3):hover{
+    background-color: #66e866;
+}
+
+.seccion-container.servicios  .card-group .card-title{
+    font-weight: 700;
+    text-align: center;
+    font-size: 24px;
+}

@@ -1,0 +1,34 @@
+.seccion-aside-container{
+    position: sticky;
+    top: 90px;
+}
+
+.seccion-aside-container .listado-aside{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.seccion-aside-container .container>.row>.col{
+    padding: 5px 15px;
+    text-align: center;
+    background-color: #1031a7;
+    border-radius: 10px;
+}
+
+.seccion-aside-container a{
+    color: #ffffff;
+    line-height: 20px;
+    padding: 5px 0;
+}
+
+.seccion-aside-container a:hover{
+    color: #a6e1fa;
+}
+
+
+@media(max-width: 991px){
+    .seccion-aside-container .listado-aside a{
+        font-size: 12px;
+    }
+}

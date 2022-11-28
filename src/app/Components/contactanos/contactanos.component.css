@@ -1,0 +1,21 @@
+.seccion-container.contactanos iframe{
+    border-radius: 10px;
+}
+
+.seccion-container.contactanos form{
+    background-color: #ebebeb;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.seccion-container.contactanos .row.formulario{
+    margin-top: 30px;
+}
+
+.seccion-container.contactanos form>div.col-12>*{
+    float: right;
+}
+
+.seccion-container.contactanos form>div{
+    margin-bottom: 15px;
+}
